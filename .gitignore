@@ -1,0 +1,12 @@
+# This is all the files we do not keep track of
+
+# Build directory
+build
+out
+
+# TAGS File
+/TAGS
+
+.clangd
+.vs
+.vscode

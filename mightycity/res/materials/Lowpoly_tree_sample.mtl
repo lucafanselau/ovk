@@ -1,0 +1,19 @@
+# MTL written from D:\Cloud\Projects\Personal\Turbosquid\Lowpoly_Trees\Publish_Sample\Lowpoly_tree_sample.obj
+
+# rgb(147, 123, 99) rgb(121, 101, 82)
+newmtl Bark
+Kd 0.5765, 0.4824, 0.3882
+Ns 0.5
+d 1
+illum 1
+Ka  0.5765, 0.4824, 0.3882
+Ks 0.5765, 0.4824, 0.3882
+
+# rgb(61, 163, 91) rgb(27, 81, 45)
+newmtl Tree
+Kd 0.1059, 0.3176, 0.1765
+Ns 0.5
+d 1
+illum 1
+Ka 0.1059, 0.3176, 0.1765
+Ks 0.1059, 0.3176, 0.1765
