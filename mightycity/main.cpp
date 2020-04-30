@@ -5,6 +5,7 @@
 #include <gui/gui_renderer.h>
 #include "game.h"
 #include "graphics/renderer.h"
+#include <filesystem>
 
 
 struct Application {
@@ -88,12 +89,13 @@ void Application::run() {
 			frames++;
 			
 			timer += delta;
+
 			if (timer >= 1.0f) {
 				timer -= 1.0f;
 				fps = frames;
 				frames = 0;
 			}
-
+			
 		}
 		// Update the renderer (acquire new image etc.)
 		if (renderer->update(delta)) continue;
@@ -302,6 +304,9 @@ int main(int argc, char** argv) {
 
 	// auto console = spdlog::default_factory::create<spdlog::sinks::ansicolor_stdout_sink_mt>("console");
 	// spdlog::set_default_logger(console);
+
+	auto path = std::filesystem::current_path();
+	spdlog::info("workingDir: {}", path);
 	
 	Application a;
 	a.run();

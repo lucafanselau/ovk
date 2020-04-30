@@ -12,7 +12,7 @@ namespace ovk {
 #ifdef DEBUG
 	// TODO: Hard code of validation layers
 	const std::vector<const char*> validation_layers = {
-		"VK_LAYER_LUNARG_standard_validation" };
+		"VK_LAYER_KHRONOS_validation" };
 #endif
 	
 	struct OVK_API AppInfo {
@@ -34,7 +34,6 @@ namespace ovk {
 		Surface create_surface(int width, int height, std::string title, bool init_events = false /* Flags?*/);
 
 		Device create_device(std::vector<const char*>&& requested_extensions, vk::PhysicalDeviceFeatures features, Surface& s);
-
 	private:
 		// Unique Handle to 
 		UniqueHandle<vk::Instance> instance;

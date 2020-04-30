@@ -99,7 +99,7 @@ namespace ovk {
 	};
 	
 
-	ImGuiRenderer::ImGuiRenderer(RenderPass& rp, SwapChain& sc, Surface& surface, Device& d) {
+	ImGuiRenderer::ImGuiRenderer(RenderPass& rp, SwapChain& sc, Surface& surface, Device& d, ImGuiSetupProps props) {
 
 		// ImGui Stuff
 		ImGui::CreateContext();
@@ -113,8 +113,11 @@ namespace ovk {
 		io.DisplaySize = ImVec2(sc.swap_extent.width, sc.swap_extent.height);
 
 		io.RenderDrawListsFn = nullptr;
-		
-		// ovk_assert(io.Fonts->AddFontFromFileTTF("../ovk/SourceCodePro-Regular.ttf", 16.0f));
+
+		if (props.use_extern_font) {
+			ovk_assert(io.Fonts->AddFontFromFileTTF(props.font_path, 16.0f));
+		}
+
 		
 		// deprecated: create_device_objects(rp, sc, d);
 

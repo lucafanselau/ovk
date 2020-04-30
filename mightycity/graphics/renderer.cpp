@@ -13,7 +13,7 @@ const auto picker_blit_extent = 100; /*px across*/
 const vk::Extent2D shadow_extent(3000, 3000);
 
 
-// =======================================================================================================================
+// *****************************
 // Master Renderer
 
 MasterRenderer::MasterRenderer(std::shared_ptr<ovk::Device>& d, std::shared_ptr<ovk::SwapChain>& sc, std::shared_ptr<ovk::Surface>& s)
@@ -135,7 +135,7 @@ void MasterRenderer::render() {
 	// TODO: Maybe this shouldn't be here
 	ImGui::Render();
 
-	device->reset_fences({ sync.in_flight_fences[sync.current_frame] });
+ 	device->reset_fences({ sync.in_flight_fences[sync.current_frame] });
 
 		if (dynamic.command_buffers[swapchain_index]) {
 			static auto& pool = device->get_command_pool(ovk::QueueType::graphics);
@@ -649,7 +649,11 @@ void MasterRenderer::create_dynamic_objects() {
 }
 
 void MasterRenderer::create_renderer() {
-	imgui = std::make_unique<ovk::ImGuiRenderer>(*render_pass, *swapchain, *surface, *device);
+	ovk::ImGuiSetupProps imgui_props {
+		.use_extern_font = true,
+		.font_path = "res/fonts/FiraCode-Regular.ttf"
+	};
+	imgui = std::make_unique<ovk::ImGuiRenderer>(*render_pass, *swapchain, *surface, *device, imgui_props);
 	ImGui::SetCurrentContext(imgui->context);
 	ImGui::GetIO().FontGlobalScale = 1.4f;
 

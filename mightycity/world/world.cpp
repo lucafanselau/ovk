@@ -95,6 +95,8 @@ void Terrain::set_height(int x, int z, float value) {
 	auto *chunk = get_chunk(chunk_loc.x, chunk_loc.y);
 	if (!chunk) return;
 
+	// If it is not an update
+	if (chunk->get_height(local.x, local.y) == value) return;
 
 	// if we arent then just proceed
 	chunk->set_height(local.x, local.y, value);
@@ -143,10 +145,13 @@ std::optional<TileType> Terrain::get_type(int x, int z) const {
 
 void Terrain::set_type(int x, int z, TileType new_type) {
 	auto [chunk_loc, local] = parse_location(x, z);
-
+	
 	// Just get the chunk and set the height there
 	auto *chunk = get_chunk(chunk_loc.x, chunk_loc.y);
 	if (!chunk) return;
+
+	// if it is not an update
+	if (chunk->get_type(local.x, local.y) == new_type) return;
 
 	chunk->set_type(local.x, local.y, new_type);
 	changed.insert(chunk);

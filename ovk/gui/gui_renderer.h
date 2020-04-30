@@ -12,10 +12,15 @@ struct ImGuiContext;
 namespace ovk {
 	class SwapChain;
 
+	struct OVK_API ImGuiSetupProps {
+		bool use_extern_font = false;
+		const char* font_path = "";
+	};
+
 	class OVK_API ImGuiRenderer : public EventListener {
 	public:
 
-		ImGuiRenderer(RenderPass& rp, SwapChain& sc, Surface& surface, Device& device);
+		ImGuiRenderer(RenderPass& rp, SwapChain& sc, Surface& surface, Device& device, ImGuiSetupProps props = {});
 
 		// STANDALONE RENDERER: May be implemented down the road
 		[[deprecated]]

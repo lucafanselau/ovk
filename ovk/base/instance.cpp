@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "Instance.h"
+#include "instance.h"
 
 #include "device.h"
 
@@ -42,8 +42,8 @@ namespace ovk {
 			spdlog::debug("[{}]: {}", message_type, data->pMessage);
 			break;
 		case VK_DEBUG_UTILS_MESSAGE_SEVERITY_INFO_BIT_EXT:
-			if (message_type == "general" || (message_type == "validation" && message.starts_with("OBJ"))) spdlog::trace("[{}]: {}", message_type, data->pMessage);
-			else spdlog::info("[{}]: {}", message_type, data->pMessage);
+			// if (message_type == "general" || (message_type == "validation" && message.starts_with("OBJ"))) spdlog::trace("[{}]: {}", message_type, data->pMessage);
+			/*else*/ spdlog::info("[{}]: {}", message_type, data->pMessage);
 			break;
 		case VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT:
 			spdlog::warn("[{}]: {}", message_type, data->pMessage);
@@ -100,7 +100,7 @@ namespace ovk {
 		// auto console = spdlog::default_factory::create<spdlog::sinks::ansicolor_stdout_sink_mt>("console");
 		// spdlog::set_default_logger(console);
 			
-		spdlog::set_level(spdlog::level::debug);
+		spdlog::set_level(spdlog::level::trace);
 		rang::setControlMode(rang::control::Force);
 		rang::setWinTermMode(rang::winTerm::Ansi);
 

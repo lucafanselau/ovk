@@ -5,7 +5,7 @@ set(mightycity_sources "main.cpp" "game.h" "game.cpp"
 	)
 
 add_executable(mightycity ${mightycity_sources})
-target_compile_definitions(mightycity PUBLIC NOISE_STATIC)
+target_compile_definitions(mightycity PUBLIC NOISE_STATIC=1)
 
 find_package(tinyobjloader CONFIG REQUIRED)
 

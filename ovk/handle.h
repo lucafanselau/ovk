@@ -116,7 +116,6 @@ namespace ovk {
 			should_delete_deallocator(true),
 			deallocator(new Deallocator(std::forward<Deallocator>(d))) {}
 
-
 		/**
 		 * \brief Disallow Copy Constructing since the underlying data should only have one owner
 		 */

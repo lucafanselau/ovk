@@ -1,187 +1,211 @@
 [
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ovk.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ovk.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ovk.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ovk.cpp",
   "file": "C:/dev/projects/ovk/ovk/ovk.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\dllmain.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\dllmain.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\dllmain.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\dllmain.cpp",
   "file": "C:/dev/projects/ovk/ovk/dllmain.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\application.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\application.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\application.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\application.cpp",
   "file": "C:/dev/projects/ovk/ovk/app/application.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\camera.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\camera.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\camera.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\camera.cpp",
   "file": "C:/dev/projects/ovk/ovk/app/camera.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\event.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\event.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\event.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\event.cpp",
   "file": "C:/dev/projects/ovk/ovk/app/event.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\state.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\state.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\app\\state.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\app\\state.cpp",
   "file": "C:/dev/projects/ovk/ovk/app/state.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\buffer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\buffer.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\buffer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\buffer.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/buffer.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\descriptor.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\descriptor.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\descriptor.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\descriptor.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/descriptor.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\device.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\device.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\device.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\device.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/device.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\framebuffer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\framebuffer.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\framebuffer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\framebuffer.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/framebuffer.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\image.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\image.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\image.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\image.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/image.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\instance.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\instance.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\instance.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\instance.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/instance.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\mem.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\mem.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\mem.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\mem.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/mem.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\pipeline.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\pipeline.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\pipeline.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\pipeline.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/pipeline.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\render_command.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\render_command.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\render_command.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\render_command.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/render_command.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\render_pass.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\render_pass.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\render_pass.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\render_pass.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/render_pass.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\surface.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\surface.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\surface.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\surface.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/surface.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\swapchain.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\swapchain.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\swapchain.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\swapchain.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/swapchain.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\sync.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\sync.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\base\\sync.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\base\\sync.cpp",
   "file": "C:/dev/projects/ovk/ovk/base/sync.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\gui\\gui_renderer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\gui\\gui_renderer.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\gui\\gui_renderer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\gui\\gui_renderer.cpp",
   "file": "C:/dev/projects/ovk/ovk/gui/gui_renderer.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\manager.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\manager.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\manager.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\manager.cpp",
   "file": "C:/dev/projects/ovk/ovk/ui/manager.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\renderer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\renderer.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\renderer.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\renderer.cpp",
   "file": "C:/dev/projects/ovk/ovk/ui/renderer.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\text.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\text.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\ui\\text.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\ui\\text.cpp",
   "file": "C:/dev/projects/ovk/ovk/ui/text.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\main.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\main.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\util\\model_loader.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\util\\model_loader.cpp",
+  "file": "C:/dev/projects/ovk/ovk/util/model_loader.cpp"
+},
+
+{
+  "directory": "C:/dev/projects/ovk/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -Dovk_EXPORTS -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -std=gnu++2a -o ovk\\CMakeFiles\\ovk.dir\\util\\loader\\obj_loader.cpp.obj -c C:\\dev\\projects\\ovk\\ovk\\util\\loader\\obj_loader.cpp",
+  "file": "C:/dev/projects/ovk/ovk/util/loader/obj_loader.cpp"
+},
+
+{
+  "directory": "C:/dev/projects/ovk/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\main.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\main.cpp",
   "file": "C:/dev/projects/ovk/mightycity/main.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\game.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\game.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\game.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\game.cpp",
   "file": "C:/dev/projects/ovk/mightycity/game.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\graphics\\renderer.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\graphics\\renderer.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\graphics\\renderer.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\graphics\\renderer.cpp",
   "file": "C:/dev/projects/ovk/mightycity/graphics/renderer.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\graphics\\mesh.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\graphics\\mesh.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\graphics\\mesh.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\graphics\\mesh.cpp",
   "file": "C:/dev/projects/ovk/mightycity/graphics/mesh.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\utils\\noise.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\utils\\noise.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\utils\\noise.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\utils\\noise.cpp",
   "file": "C:/dev/projects/ovk/mightycity/utils/noise.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\world\\chunk.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\world\\chunk.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\world\\chunk.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\world\\chunk.cpp",
   "file": "C:/dev/projects/ovk/mightycity/world/chunk.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\world\\world.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\world\\world.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DNOISE_STATIC=1 -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o mightycity\\CMakeFiles\\mightycity.dir\\world\\world.cpp.obj -c C:\\dev\\projects\\ovk\\mightycity\\world\\world.cpp",
   "file": "C:/dev/projects/ovk/mightycity/world/world.cpp"
 },
 
 {
   "directory": "C:/dev/projects/ovk/build",
-  "command": "C:\\PROGRA~2\\MICROS~1\\2019\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../ovk -IC:/VulkanSDK/1.1.126.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o sandbox\\CMakeFiles\\sandbox.dir\\main.cpp.obj -c C:\\dev\\projects\\ovk\\sandbox\\main.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o sandbox\\CMakeFiles\\sandbox.dir\\main.cpp.obj -c C:\\dev\\projects\\ovk\\sandbox\\main.cpp",
   "file": "C:/dev/projects/ovk/sandbox/main.cpp"
+},
+
+{
+  "directory": "C:/dev/projects/ovk/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o examples\\CMakeFiles\\triangle.dir\\triangle\\triangle.cpp.obj -c C:\\dev\\projects\\ovk\\examples\\triangle\\triangle.cpp",
+  "file": "C:/dev/projects/ovk/examples/triangle/triangle.cpp"
+},
+
+{
+  "directory": "C:/dev/projects/ovk/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  -DFMT_LOCALE -DFMT_SHARED -DGLFW_DLL -DOVK_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -D_SILENCE_CLANG_CONCEPTS_MESSAGE -I../ovk -IC:/VulkanSDK/1.2.135.0/Include -isystem C:/tools/vcpkg/installed/x64-windows/include -isystem C:/tools/vcpkg/installed/x64-windows/share/glfw3/../../include  -m64 -fcolor-diagnostics -fansi-escape-codes -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=gnu++2a -o examples\\CMakeFiles\\deferred.dir\\deferred\\deferred.cpp.obj -c C:\\dev\\projects\\ovk\\examples\\deferred\\deferred.cpp",
+  "file": "C:/dev/projects/ovk/examples/deferred/deferred.cpp"
 }
 ]

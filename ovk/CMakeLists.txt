@@ -13,6 +13,8 @@ set(ovk_sources
   "gui/gui_renderer.cpp" "gui/gui_renderer.h"
   "ui/manager.cpp" "ui/manager.h" "ui/renderer.cpp" "ui/renderer.h"
   "ui/text.cpp" "ui/text.h"
+	"util/model_loader.h" "util/model_loader.cpp"
+	"util/loader/obj_loader.h" "util/loader/obj_loader.cpp"
 )
 
 add_library(ovk SHARED ${ovk_sources})
@@ -25,13 +27,19 @@ target_include_directories(ovk PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 # Vulkan
 # is currently loaded from where it resides on my computer
 # not portable at all
-target_include_directories(ovk PUBLIC "C:\\VulkanSDK\\1.1.126.0\\Include")
-target_link_directories(ovk PUBLIC "C:\\VulkanSDK\\1.1.126.0\\Lib")
+target_include_directories(ovk PUBLIC "C:\\VulkanSDK\\1.2.135.0\\Include")
+target_link_directories(ovk PUBLIC "C:\\VulkanSDK\\1.2.135.0\\Lib")
 
 find_package(spdlog CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 find_package(Freetype REQUIRED)
+ find_package(tinyobjloader CONFIG REQUIRED)
 
-target_link_libraries(ovk PUBLIC vulkan-1.lib spdlog::spdlog spdlog::spdlog_header_only glfw glm imgui::imgui Freetype::Freetype)
+target_link_libraries(ovk PUBLIC vulkan-1.lib spdlog::spdlog spdlog::spdlog_header_only glfw glm imgui::imgui Freetype::Freetype tinyobjloader::tinyobjloader)
+target_compile_options(ovk PRIVATE
+     $<$<OR:$<CXX_COMPILER_ID:Clang>,$<CXX_COMPILER_ID:AppleClang>,$<CXX_COMPILER_ID:GNU>>:
+          -Wall>
+     $<$<CXX_COMPILER_ID:MSVC>:
+          /W4>)

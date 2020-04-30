@@ -20,7 +20,7 @@ namespace ovk::mem {
 
 	// TODO: This does not represent all available types of memory vulkan has to offer
 	// See (debug_print_mem_types(vk::PhysicalDevivce))
-	enum class OVK_API MemoryType {
+	enum class MemoryType {
 		device_local,
 		cpu_accessible,
 		cpu_coherent,
@@ -59,7 +59,7 @@ namespace ovk::mem {
 		non_linear = 1 << 0
 	};
 	constexpr AllocationFlag operator|(AllocationFlag a, AllocationFlag b) {
-		return a = static_cast<AllocationFlag> (a | b);
+		return a = static_cast<AllocationFlag> (static_cast<uint32_t>(a) | static_cast<uint32_t>(b));
 	}
 
 	constexpr AllocationFlag operator&(AllocationFlag a, AllocationFlag b) {
