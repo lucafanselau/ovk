@@ -148,7 +148,7 @@ namespace ovk {
 		create_info.enabledExtensionCount = extensions.size();
 		create_info.ppEnabledExtensionNames = extensions.data();
 
-		instance.invalidate(false, false, false);
+		// instance.invalidate(false, false);
 
 		instance.set(VK_CREATE(vk::createInstance(create_info), "failed to create Instance"));
 

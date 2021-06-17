@@ -69,12 +69,17 @@ namespace ovk {
 	struct UniqueHandle {
 
 		static_assert(std::is_copy_constructible<T>::value, "[UniqueHandle] T must be copy constructable");
-		static_assert(std::is_same<Deallocator, ObjectDestroy<T>>::value || std::is_invocable<Deallocator, T&>::value || std::is_same<Deallocator, NoDeallocator>::value, "[UniqueHandle] Deallocator must be of type ObjectDestroy<T>, invocable with T& or be NoDeallocator");
+		// static_assert(std::is_same<Deallocator, ObjectDestroy<T>>::value || std::is_invocable<Deallocator, T&>::value || std::is_same<Deallocator, NoDeallocator>::value, "[UniqueHandle] Deallocator must be of type ObjectDestroy<T>, invocable with T& or be NoDeallocator");
 
 		/**
 		 * \brief This Constructor constructs a Unique Handle that is invalid
 		 */
-		UniqueHandle() : data(nullptr), should_delete_deallocator(false), deallocator() {}
+		UniqueHandle(Deallocator& d) : data(nullptr), deallocator(d) {}
+		
+		/**
+		 * \brief This Constructor constructs a Unique Handle that is invalid
+		 */
+		UniqueHandle(Deallocator&& d) : data(nullptr), deallocator(std::forward<Deallocator>(d)) {}
 
 		/**
 		 * \brief This Constructs a Handle that already holds Data inside of it
@@ -84,8 +89,7 @@ namespace ovk {
 		 */
 		UniqueHandle(T&& raw_data, Deallocator&& d) :
 			data(nullptr),
-			should_delete_deallocator(true),
-			deallocator(new Deallocator(std::forward<Deallocator>(d))) {
+			deallocator(std::forward<Deallocator>(d)) {
 			// Copy Raw Data into the Data Pointer
 			set(std::forward<T>(raw_data));
 		}
@@ -98,8 +102,7 @@ namespace ovk {
 		 */
 		UniqueHandle(T&& raw_data, Deallocator& d) :
 			data(nullptr),
-			should_delete_deallocator(false),
-			deallocator(&d) {
+			deallocator(d) {
 			// Copy Raw Data into the Data Pointer
 			set(std::forward<T>(raw_data));
 		}
@@ -113,8 +116,7 @@ namespace ovk {
 		 */
 		UniqueHandle(T* raw_data, Deallocator&& d) :
 			data(raw_data),
-			should_delete_deallocator(true),
-			deallocator(new Deallocator(std::forward<Deallocator>(d))) {}
+			deallocator(std::forward<Deallocator>(d)) {}
 
 		/**
 		 * \brief Disallow Copy Constructing since the underlying data should only have one owner
@@ -134,13 +136,13 @@ namespace ovk {
 		 */
 		UniqueHandle(UniqueHandle<T, Deallocator>&& other) noexcept :
 			data(nullptr),
-			should_delete_deallocator(other.should_delete_deallocator),
+			// should_delete_deallocator(other.should_delete_deallocator),
 			deallocator(other.deallocator) {
 			
 			// Transfer the Pointer since the old handle will not delete the underlying Data
 			set_ptr(other.data);
 			// Invalidate other Handle
-			other.invalidate(false, false, false);
+			other.invalidate(false, false);
 		}
 
 		UniqueHandle<T, Deallocator>& operator=(UniqueHandle<T, Deallocator>&& other) noexcept {
@@ -148,11 +150,11 @@ namespace ovk {
 			invalidate();
 			// Use other Deallocator
 			deallocator = other.deallocator;
-			should_delete_deallocator = other.should_delete_deallocator;
+			// should_delete_deallocator = other.should_delete_deallocator;
 			// Copy old Data
 			set_ptr(other.data);
 			// Invalidate other Handle (but keeping the pointer alive)
-			other.invalidate(false, false, false);
+			other.invalidate(false, false);
 			// Return this Handle
 			return *this;
 		}
@@ -204,17 +206,19 @@ namespace ovk {
 		/**
 		 * \brief This function must be called before new Data is assigned to the Handle
 		 */
-		void invalidate(const bool deallocate = true, const bool delete_data = true, const bool delete_allocator = true) {
+		void invalidate(const bool deallocate = true, const bool delete_data = true) {
 			if constexpr (!std::is_same_v<Deallocator, NoDeallocator>) {
 				if (data) {
-					if (deallocate) deallocator->operator()(*data);
+					if (deallocate) deallocator(*data);
 					if (delete_data) delete data;
 				}
 			}
-			if (should_delete_deallocator && delete_allocator && deallocator) {
-				delete deallocator;
-				deallocator = nullptr;
-			}
+			// DEPRECATED: Is not supported anymore
+			// if (should_delete_deallocator && delete_allocator && deallocator) {
+			//   delete deallocator;
+			//   deallocator = nullptr;
+		  // }
+
 			data = nullptr;
 		}
 
@@ -264,8 +268,7 @@ namespace ovk {
 		}
 
 		T* data;
-		bool should_delete_deallocator;
-		Deallocator* deallocator;
+		Deallocator deallocator;
 	};
 
 	template <typename T>

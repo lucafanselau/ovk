@@ -12,5 +12,3 @@ target_link_libraries(triangle PRIVATE ovk)
 set(deferred_sources "deferred/deferred.cpp" "deferred/renderer.h" "deferred/renderer.cpp")
 add_executable(deferred ${deferred_sources})
 target_link_libraries(deferred PRIVATE ovk)
- 
-

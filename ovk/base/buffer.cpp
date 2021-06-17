@@ -8,7 +8,7 @@ namespace ovk {
 	
 
 	Buffer::~Buffer() {
-		handle.invalidate(true, false, false);
+		// handle.invalidate(true, false, false);
 		// memory.invalidate(true, false, false);
 	}
 
